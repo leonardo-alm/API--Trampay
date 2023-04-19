@@ -18,6 +18,6 @@ Create a .env file with the following variables:<br />
 - POSTGRES_PASSWORD=your postgres password
 - POSTGRES_DATABASE=your postgres database name
 
--JWT_SECRET=a jwt secret you can create
+- JWT_SECRET=a jwt secret you can create
 
 Run npm run start:dev to start the server
