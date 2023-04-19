@@ -9,7 +9,7 @@ of a company. The user will be able to upload client files only if authenticated
 
 ## Run
 
-Run npm install to install all dependencies<br /><br />
+Run npm install to install all dependencies<br />
 Create a .env file with the following variables:<br />
 
 - POSTGRES_HOST=your postgres host number
