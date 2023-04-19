@@ -9,7 +9,7 @@ of a company. The user will be able to upload client files only if authenticated
 
 ## Run
 
-Run npm install to install all dependencies<br />
+Run npm install to install all dependencies<br /><br />
 Create a .env file with the following variables:<br />
 
 - POSTGRES_HOST=your postgres host number
@@ -18,6 +18,6 @@ Create a .env file with the following variables:<br />
 - POSTGRES_PASSWORD=your postgres password
 - POSTGRES_DATABASE=your postgres database name
 
-JWT_SECRET=a jwt secret you can create<br />
+- JWT_SECRET=a jwt secret you can create<br />
 
 Run npm run start:dev to start the server
