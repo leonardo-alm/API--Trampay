@@ -9,15 +9,15 @@ of a company. The user will be able to upload client files only if authenticated
 
 ## Run
 
-- Run npm install to install all dependencies
-- Create a .env file with the following variables:
+Run npm install to install all dependencies<br />
+Create a .env file with the following variables:<br />
 
-POSTGRES_HOST=your postgres host number<br />
-POSTGRES_PORT=your postgres port number<br />
-POSTGRES_USER=your postgres username<br />
-POSTGRES_PASSWORD=your postgres password<br />
-POSTGRES_DATABASE=your postgres database name<br />
+-POSTGRES_HOST=your postgres host number
+-POSTGRES_PORT=your postgres port number
+-POSTGRES_USER=your postgres username
+-POSTGRES_PASSWORD=your postgres password
+-POSTGRES_DATABASE=your postgres database name
 
 JWT_SECRET=a jwt secret you can create<br />
 
-- Run npm run start:dev to start the server
+Run npm run start:dev to start the server
