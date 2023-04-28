@@ -4,6 +4,7 @@ export class CreateClientDto {
     @IsNotEmpty()
     document: string;
 
+    @IsNotEmpty()
     balance: number;
 
     @IsNotEmpty()

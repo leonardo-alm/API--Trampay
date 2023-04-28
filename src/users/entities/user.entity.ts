@@ -1,5 +1,13 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, DeleteDateColumn, BeforeInsert } from 'typeorm';
-import {hashSync} from 'bcrypt'
+import {
+    Entity,
+    Column,
+    PrimaryGeneratedColumn,
+    CreateDateColumn,
+    UpdateDateColumn,
+    DeleteDateColumn,
+    BeforeInsert
+} from 'typeorm';
+import { hashSync } from 'bcrypt'
 
 @Entity()
 export class User {

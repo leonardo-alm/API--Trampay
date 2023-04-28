@@ -1,13 +1,14 @@
-import { IsEmail, IsNotEmpty } from "class-validator";
+import { IsEmail, MinLength } from "class-validator";
+import { IsEmailNotRegistered } from "../validation-rules/email-not-registered.rule";
 
 export class CreateUserDto {
-    @IsNotEmpty()
+    @MinLength(4)
     username: string;
 
-    @IsNotEmpty()
     @IsEmail()
+    /* @IsEmailNotRegistered() */
     email: string;
 
-    @IsNotEmpty()
+    @MinLength(6)
     password: string;
 }

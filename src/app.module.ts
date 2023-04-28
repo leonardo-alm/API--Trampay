@@ -20,7 +20,7 @@ import { ClientsModule } from './clients/clients.module';
     }),
     UsersModule,
     AuthModule,
-    ClientsModule
+    ClientsModule,
   ],
   controllers: [],
   providers: [],

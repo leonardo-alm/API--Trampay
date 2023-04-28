@@ -12,11 +12,25 @@ export class UsersService {
   ) { }
 
   async create(createUserDto: CreateUserDto) {
+/*     const userExists = this.findByUsername(createUserDto.username)
+    if (userExists) {
+      return {
+        "statusCode": 400,
+        "message": [
+          "user already exists"
+        ],
+        "error": "Bad Request"
+      }
+    } */
     const user = this.usersRepository.create(createUserDto);
     return await this.usersRepository.save(user);
   }
 
   async findByUsername(username: string) {
     return await this.usersRepository.findOneBy({ username })
+  }
+
+  async findByEmail(email: string) {
+    return await this.usersRepository.findOneBy({ email })
   }
 }
